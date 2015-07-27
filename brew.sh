@@ -10,7 +10,6 @@ echo 'Upgrading exisiting brews'
 brew upgrade --all
 
 brews=(
-    'ansible'
     'autoconf'
     'automake'
     'bash'
