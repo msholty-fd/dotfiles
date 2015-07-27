@@ -20,25 +20,16 @@ casks=(
     'webp-quicklook'
     # daily
     'alfred'
-    'dropbox'
     # dev
     'virtualbox'
     'vagrant'
     'iterm2'
     'sublime-text3'
-    # irc
-    # 'limechat'
-    # messaging
+    'puppet'
     'hipchat'
     'slack'
-    # music
-    'soundcleod'
-    'spotify'
-    # browsers
     'google-chrome-beta'
-    'google-chrome-canary'
     'firefox'
-    # 'chromium --force'
 );
 
 brew cask install ${casks[@]}
