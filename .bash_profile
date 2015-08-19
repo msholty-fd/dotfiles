@@ -127,3 +127,4 @@ httpDebug () {
 #   ------------------------------------------------------------
     my_ps() { ps $@ -u $USER -o pid,%cpu,%mem,start,time,bsdtime,command ; }
     export PATH=/usr/local/sbin:$PATH
+export PATH=./node_modules/.bin:$PATH
