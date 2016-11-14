@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/will/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # set editor
 export EDITOR='sublime'
